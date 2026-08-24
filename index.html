@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <div class="container">
+    <header class="page-header">
+        <h1>MY PORTFOLIO</h1>
+    
+            <nav>
+                <ul>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+             </ul>
+           </nav>
+           </header>
+           <section id="hero">
+            <h2>Hi, I'm Musa</h2>   
+            <img src="musa-aliu.jpg" alt="Musa Aliu" class="profile-pic">
+      <p>Aspiring Computer Science student & Web development</p>
+            <a href="#projects" class="btn">View my page</a>
+           </section>
+           <section id="about">
+               <h2>ABOUT Me</h2>
+               <p> I'm Musa Aliu, a computer science student and web developer based in Abuja, Nigeria. I build clean, functional websites using HTML, CSS, and JavaScript, and I'm currently expanding into Python programming and graphic design. My recent projects include a working JavaScript calculator app and this portfolio site, both built and debugged from scratch. I'm focused on writing solid, working code and I'm always learning — my long-term goal is to grow into full software and AI engineering.
+               </p>
+           </section>
+           <section id="skills">
+             <h2>My Skills</h2>
+             <ul>
+                 <li>HTML</li>
+                 <li>CSS</li>
+                 <li>JAVASCRIPT</li>
+                 <li>PYTHON</li>
+                 <li>CORELDRAW</li>
+             </ul>
+           </section>
+           <section id="projects">
+               <h2>My Projects</h2>
+               <div class="project-card">
+                   <h3>Calculator app</h3>
+                   A JavaScript calculator I built and debugged from scratch, handling button clicks, operators, and display logic.</p>  
+                 <a href="cal.html" class="btn">Live Demo</a>
+                    
+               </div>
+               <div class="project-card">
+  <h3>Weather Checker</h3>
+  <p>A weather app that fetches live data from the OpenWeatherMap API, showing real-time temperature and conditions for any city the user searches.</p>
+    <a href="weather.html" class="btn">Live Demo</a>
+    
+</div>
+          <div class="project-card">
+              <h3>This portfolio</h3>
+              <p>The website you're looking at right now — built with HTML and CSS to showcase my work and skills.</p>
+          </div>
+          </section>
+          <section id="contact">
+              <h2>Contact Me</h2>
+              <p>Interested in working together? Send me a message.</p>
+              <form id="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+          
+           </section>
+           <footer>
+    <p>&copy; 2026 Musa Aliu. All rights reserved.</p>
+</footer>
+           </div>
+  <script src="portfolio.js"></script>  
+</body>
+</html>
