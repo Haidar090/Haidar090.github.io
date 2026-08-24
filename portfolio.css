@@ -1,0 +1,171 @@
+/* Reset & base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #ffffff;
+}
+
+h2 {
+  border-bottom: 2px solid #8a2be2;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+/* Sections */
+section {
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+}
+
+/* Skills list */
+#skills ul {
+  list-style: none;
+}
+
+#skills li {
+  background-color: #1e1e1e;
+  border-left: 4px solid #8a2be2;
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+
+/* Project cards */
+.project-card {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.project-card h3 {
+  color: #8a2be2;
+  margin-bottom: 10px;
+}
+
+/* Contact form */
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 400px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  color: #e0e0e0;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+#contact-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+#contact-form button {
+  background-color: #8a2be2;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#contact-form button:hover {
+  background-color: #6f1fc4;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  color: #777;
+  margin-top: 60px;
+  font-size: 0.9rem;
+}
+/* Navigation */
+nav ul,
+h1 + ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+nav a,
+h1 + ul a {
+  color: #b06fe0;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+nav a:hover,
+h1 + ul a:hover {
+  color: #ffffff;
+}
+
+a {
+  color: #b06fe0;
+}
+
+a:hover {
+  color: #ffffff;
+}
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #8a2be2;
+  margin-bottom: 15px;
+}
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 20%;
+  border: 3px solid #8a2be2;
+  margin-bottom: 15px;
+}
+a {
+  color: #b06fe0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+.page-header {
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+}
+#hero {
+  text-align: center;
+}
+
+#hero .profile-pic {
+  margin-left: auto;
+  margin-right: auto;
+}
