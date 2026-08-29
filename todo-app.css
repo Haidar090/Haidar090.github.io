@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  line-height: 1.6;
+  padding: 20px
+  
+  .container {
+  max-width: 500px;
+  margin: 40px auto;
+  background-color: #1e1e1e;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(139, 92, 246, 0.15);
+}
+
+h1 {
+  text-align: center;
+  color: #a78bfa;
+  margin-bottom: 20px;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#taskInput {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+}
+
+#addBtn {
+  padding: 10px 20px;
+  background-color: #7c3aed;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#addBtn:hover {
+  background-color: #6d28d9;
+}
+
+#taskList {
+  list-style: none;
+}
+#taskList li {
+  padding: 10px;
+  margin-bottom: 8px;
+  background-color: #2a2a2a;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+.delete-btn {
+  float: right;
+  background-color: #dc2626;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #b91c1c;
+}
+.edit-btn {
+  float: right;
+  background-color: #7c3aed;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.edit-btn:hover {
+  background-color: #6d28d9;
+}.filter-section {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.filter-btn {
+  padding: 6px 14px;
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+  border: 1px solid #333;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.filter-btn.active {
+  background-color: #7c3aed;
+  border-color: #7c3aed;
+}
+
+#taskList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#clearCompletedBtn {
+  padding: 6px 14px;
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+  border: 1px solid #dc2626;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+#clearCompletedBtn:hover {
+  background-color: #dc2626;
+}
